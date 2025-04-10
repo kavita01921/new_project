@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes</title>
+
+</head>
+<style>
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.shape{
+    margin-top:10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+#square:hover{
+    background-color: red;
+
+}
+#circle:hover{
+    background-color: green;
+}
+#diamond:hover{
+    background-color: yellow;
+}
+#circle{
+    border-radius: 50%;
+}
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+
+}
+h2{
+    rotate: -45deg;
+}
+</style>
+<body>
+    <div id="main">
+        <div id="new">
+            <div id="square" class="shape"><h1> 1 </h1></div>
+        <div id= "diamond" class="shape"><h2> 2 </h2></div>
+        </div>
+        <div id="circle" class="shape"><h3> 3 </h3></div>
+    </div>
+
+    
+</body>
+</html>
